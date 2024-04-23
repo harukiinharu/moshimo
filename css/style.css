@@ -6,7 +6,7 @@ body {
 :root {
     --audio-height: 54px;
     --audio-up-down-margin: 30px;
-    --container-width: 400px;
+    --container-width: 300px;
     --line-on-color: #fd4a47;
     --background-color-all: #333333
 }
@@ -44,10 +44,10 @@ p {
 
 #mainaudio {
     position: fixed;
-    width: calc(var(--container-width) - 2*var(--audio-up-down-margin));
+    width: calc(var(--container-width));
     left: 0;
     right: 0;
-    padding: var(--audio-up-down-margin);
+    padding: var(--audio-up-down-margin) 0;
     margin: 0 auto;
     background-color: var(--background-color-all);
 }
