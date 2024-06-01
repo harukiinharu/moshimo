@@ -6,7 +6,7 @@ body {
 :root {
     --audio-height: 54px;
     --audio-up-down-margin: 30px;
-    --container-width: 300px;
+    --container-width: 400px;
     --line-on-color: #fd4a47;
     --background-color-all: #333333
 }
