@@ -7,8 +7,9 @@ body {
     --audio-height: 54px;
     --audio-up-down-margin: 30px;
     --container-width: 400px;
+    --line-off-color: black;
     --line-on-color: #fd4a47;
-    --background-color-all: #333333
+    --background-color-all: white;
 }
 
 ul {
@@ -20,7 +21,7 @@ li {
     list-style: none;
     padding: 0;
     margin: 0;
-    color: #cccccc;
+    color: var(--line-off-color);
 }
 
 li.on {
